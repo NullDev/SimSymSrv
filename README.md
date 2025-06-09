@@ -1,6 +1,6 @@
 # SimSymSrv
 SimSymSrv - Simple Symbol Server Downloader <br>
-_I shouldn't be allowed to name things..._
+<sub>_I shouldn't be allowed to name things..._</sub>
 
 ## What is this?
 This is a simple CLI tool to download official Microsoft Debugging Symbols from the Microsoft Symbol Server ([SymSrv](https://msdl.microsoft.com/download/symbols))
