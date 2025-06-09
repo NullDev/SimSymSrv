@@ -1,4 +1,4 @@
-# SimSymSrv
+# 🐞 SimSymSrv
 ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white)
 
 <p align="center">
@@ -9,7 +9,7 @@ SimSymSrv - Simple Symbol Server Downloader <br>
 
 ---
 
-## What is this?
+## ⭐ What is this?
 This is a simple CLI tool to download official Microsoft Debugging Symbols <br>
 from the Microsoft Symbol Server ([SymSrv](https://msdl.microsoft.com/download/symbols))
 
@@ -39,18 +39,18 @@ If options are not provided, you will be prompted for the missing input.
 
 ---
 
-## Why? 
+## ❓ Why? 
 So you can reverse and debug official MS binaries. Yay...
 
 ---
 
-## Download
+## ⬇️ Download
 
-Binaries can be downloaded from [releases](https://github.com/NullDev/SimSymSrv/releases)
+Binaries can be downloaded from [releases](https://github.com/NullDev/SimSymSrv/releases) 🚀
 
 ---
 
-## From Source
+## :octocat: From Source
 
 - `git clone https://github.com/NullDev/SimSymSrv.git && cd SimSymSrv`
 - Dev
@@ -61,5 +61,5 @@ Binaries can be downloaded from [releases](https://github.com/NullDev/SimSymSrv/
 
 ---
 
-## Note
+## ⚠️ Note
 This is still in its rough stages, and it's also my very first Zig project...
