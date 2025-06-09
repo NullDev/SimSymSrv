@@ -12,3 +12,5 @@ This is a simple CLI tool to download official Microsoft Debugging Symbols from 
 Simple as that.
 
 This is however still in its rough stages, and it's also my very first Zig project...
+
+![image](https://github.com/user-attachments/assets/9a6cfee3-5b68-45d9-93a0-5c910b0ee106)
