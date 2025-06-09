@@ -1,5 +1,5 @@
 # SimSymSrv
-SimSymSrv - Simple Symbol Server Downloader
+SimSymSrv - Simple Symbol Server Downloader <br>
 _I shouldn't be allowed to name things..._
 
 ## What is this?
