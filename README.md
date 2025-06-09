@@ -21,6 +21,8 @@ Simple as that.
 
 ![image](https://github.com/user-attachments/assets/9a6cfee3-5b68-45d9-93a0-5c910b0ee106)
 
+Can also be used with CLI Arguments now, See `simsymsrv --help`
+
 ---
 
 ## Why? 
