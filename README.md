@@ -1,6 +1,11 @@
 # SimSymSrv
+![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white)
+
+<p align="center">
+🐞<br>
 SimSymSrv - Simple Symbol Server Downloader <br>
-<sub>_I shouldn't be allowed to name things..._</sub>
+<sub><i>I shouldn't be allowed to name things...</i></sub>
+</p>
 
 ---
 
