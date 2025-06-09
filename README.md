@@ -17,7 +17,7 @@ from the Microsoft Symbol Server ([SymSrv](https://msdl.microsoft.com/download/s
 - You provide a directory
 - It downloads the debugging symbols to that directory
 
-Simple as that.
+Simple as that. Works with relative and absolute paths.
 
 ![image](https://github.com/user-attachments/assets/abd85054-a525-461a-b37a-0a74e61640ca)
 
