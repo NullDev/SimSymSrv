@@ -119,7 +119,7 @@ pub fn extractCodeViewInfo(data: []const u8) !struct { name: []const u8, guid_ag
     var idx: usize = 0;
     for (ordered) |b| {
         guid_buf[idx] = HEX[(b >> 4) & 0x0F]; // high nibble
-        guid_buf[idx + 1] = HEX[b & 0x0F]; // low  nibble
+        guid_buf[idx + 1] = HEX[b & 0x0F]; // low nibble
         idx += 2;
     }
     const guid_str = guid_buf[0..idx];

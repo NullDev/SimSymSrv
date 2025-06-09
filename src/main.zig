@@ -1,6 +1,6 @@
 const std = @import("std");
 const pe = @import("pe.zig");
-const downloader = @import("downloader.zig");
+const downloader = @import("downloader/downloader.zig");
 const h = @import("headers.zig");
 
 // ========================= //

@@ -1,4 +1,5 @@
 const std = @import("std");
+const ProgressBar = @import("progress.zig").ProgressBar;
 
 // ========================= //
 // = Copyright (c) NullDev = //
@@ -138,17 +139,25 @@ pub fn download(
         const final_path = try getNextAvailableFilename(allocator, outfile_path);
         defer allocator.free(final_path);
 
+        // Get content length if available
+        const content_length = if (req.response.content_length) |len| len else null;
+
         // stream body to file
         var file = try std.fs.cwd().createFile(final_path, .{});
         defer file.close();
 
         var body_reader = req.reader();
         var buf: [4 * 1024]u8 = undefined;
+        var bytes_downloaded: usize = 0;
+
         while (true) {
             const n = try body_reader.read(&buf);
             if (n == 0) break;
             try file.writeAll(buf[0..n]);
+            bytes_downloaded += n;
+            ProgressBar.update(bytes_downloaded, content_length);
         }
+        ProgressBar.finish();
         break;
     }
 }
