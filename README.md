@@ -59,6 +59,9 @@ Binaries can be downloaded from [releases](https://github.com/NullDev/SimSymSrv/
 - Release
   - `zig build-exe src/main.zig -O ReleaseFast -target x86_64-windows -fstrip -femit-bin="SimSymSrv.exe"`
 
+**Requires Zig 0.14.0 or higher** <br>
+Developed on Zig 0.14.1
+
 ---
 
 ## ⚠️ Note
