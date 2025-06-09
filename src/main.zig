@@ -57,7 +57,7 @@ pub fn main() !void {
     const out_path_buf = try std.mem.concat(alloc, u8, &.{ out_dir_path, std.fs.path.sep_str, pdb_name });
     defer alloc.free(out_path_buf);
 
-    try stdout.print("Downloading '{s}' to {s}", .{ url, out_path_buf });
+    try stdout.print("Downloading '{s}' to {s}\n", .{ url, out_path_buf });
     try downloader.download(url, out_path_buf, gpa.allocator(), 8);
-    try stdout.print("\nDownloaded {s}\n", .{out_path_buf});
+    try stdout.print("Downloaded {s}\n", .{out_path_buf});
 }
