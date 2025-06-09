@@ -3,11 +3,12 @@ SimSymSrv - Simple Symbol Server Downloader <br>
 <sub>_I shouldn't be allowed to name things..._</sub>
 
 ## What is this?
-This is a simple CLI tool to download official Microsoft Debugging Symbols from the Microsoft Symbol Server ([SymSrv](https://msdl.microsoft.com/download/symbols))
+This is a simple CLI tool to download official Microsoft Debugging Symbols <br>
+from the Microsoft Symbol Server ([SymSrv](https://msdl.microsoft.com/download/symbols))
 
-- You provide a file (EXE / DLL / SYS)
+- You provide a Microsoft Binary (EXE / DLL / SYS)
 - You provide a directory
-- It downloads the symbols to that directory
+- It downloads the debugging symbols to that directory, so you can reverse, debug, whatever official MS binaries. Yay...
 
 Simple as that.
 
