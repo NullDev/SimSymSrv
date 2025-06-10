@@ -42,7 +42,9 @@ If options are not provided, you will be prompted for the missing input.
 ## ❓ Why? 
 So you can reverse and debug official MS binaries. Yay...
 
-### Couldn't this be a simple bash script with `wget`?
+---
+
+## ❓ Couldn't this be a simple bash script with `wget`?
 Sadly no. In order to build the download URL, we need to [extract GUID & age from the PE](https://github.com/NullDev/SimSymSrv/blob/master/src/pe.zig) and then calculate the URL in the format `https://msdl.microsoft.com/download/symbols/{PDB Name}/{GUID + Age}/{PDB Name}` which is only valid for ~1 hour. 
 
 ---
