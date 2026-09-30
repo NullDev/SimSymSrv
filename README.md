@@ -2,7 +2,7 @@
 ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white)
 
 <p align="center">
-<img src="https://pics.clipartpng.com/Ladybug_PNG_Clip_Art-1582.png" height="200" width="auto"><br>
+<img src="https://freepngimg.com/download/ladybug/161801-ladybug-insect-vector-free-clipart-hd.png" height="200" width="auto"><br>
 SimSymSrv - Simple Symbol Server Downloader <br>
 <sub><i>I shouldn't be allowed to name things...</i></sub>
 </p>
